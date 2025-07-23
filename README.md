@@ -1,6 +1,6 @@
 # Git Commit Convention
 
-## 1. ±âº» Çü½Ä
+## 1. ê¸°ë³¸ í˜•ì‹
 ```
 <type>(<scope>): <subject>
 
@@ -9,7 +9,7 @@
 [optional footer]
 ```
 
-## 2. ¿¹½Ã
+## 2. ì˜ˆì‹œ
 ```
 fix(bug): resolve infinite enemy spawning issue
 
@@ -20,36 +20,33 @@ Ensures proper wave progression.
 Fixes #BUG-101
 ```
 
-## 3. Å¸ÀÔ(type) - ÇÊ¼ö
-- `feat`: »õ·Î¿î ±â´É
-- `fix`: ¹ö±× ¼öÁ¤
-- `docs`: ¹®¼­ ¼öÁ¤
-- `style`: ÄÚµå ½ºÅ¸ÀÏ º¯°æ (ÄÚµå º¯°æ ¾øÀ½)
-- `refactor`: ÄÚµå ¸®ÆÑÅä¸µ (±â´É º¯°æ ¾øÀ½)
-- `perf`: ¼º´É °³¼±
-- `test`: Å×½ºÆ® ÄÚµå Ãß°¡ ¶Ç´Â ¼öÁ¤
-- `build`: ºôµå ½Ã½ºÅÛ ¶Ç´Â ¿ÜºÎ Á¾¼Ó¼º º¯°æ
-- `ci`: CI/CD °ü·Ã º¯°æ
-- `chore`: ±âÅ¸ º¯°æ»çÇ× (¿¹: ºôµå ½ºÅ©¸³Æ® ¼öÁ¤, ÆÐÅ°Áö ¾÷µ¥ÀÌÆ® µî)
-- `revert`: ÀÌÀü Ä¿¹Ô µÇµ¹¸®±â
-- `WIP`: ÀÛ¾÷ Áß (Work In Progress)
-- `release`: ¹èÆ÷ °ü·Ã Ä¿¹Ô
+## 3. íƒ€ìž…(type) - í•„ìˆ˜
+- `feat`: ìƒˆë¡œìš´ ê¸°ëŠ¥ ì¶”ê°€
+- `fix`: ë²„ê·¸ ìˆ˜ì •
+- `docs`: ë¬¸ì„œ ìˆ˜ì •
+- `style`: ì½”ë“œ ìŠ¤íƒ€ì¼ ë³€ê²½ (ì½”ë“œ ë³€ê²½ ì—†ìŒ)
+- `refactor`: ì½”ë“œ ë¦¬íŒ©í† ë§ (ê¸°ëŠ¥ ë³€ê²½ ì—†ìŒ)
+- `perf`: ì„±ëŠ¥ ê°œì„ 
+- `test`: í…ŒìŠ¤íŠ¸ ì½”ë“œ ì¶”ê°€ ë˜ëŠ” ìˆ˜ì •
+- `build`: ë¹Œë“œ ì‹œìŠ¤í…œ ë˜ëŠ” ì™¸ë¶€ ì¢…ì†ì„± ë³€ê²½
+- `ci`: CI/CD ê´€ë ¨ ë³€ê²½
+- `chore`: ê¸°íƒ€ ë³€ê²½ì‚¬í•­ (ì˜ˆ: ë¹Œë“œ ìŠ¤í¬ë¦½íŠ¸ ìˆ˜ì •, íŒ¨í‚¤ì§€ ì—…ë°ì´íŠ¸ ë“±)
+- `revert`: ì´ì „ ì»¤ë°‹ ë˜ëŒë¦¬ê¸°
+- `release`: ë°°í¬ ê´€ë ¨ ì»¤ë°‹
 
-## 4. ½ºÄÚÇÁ(scope) - ¼±ÅÃ »çÇ×
-- º¯°æ »çÇ×ÀÌ ¿µÇâÀ» ¹ÌÄ¡´Â ¸ðµâÀÌ³ª ÆÄÀÏÀ» ¸í½ÃÇÕ´Ï´Ù.
-- ¿¹: `bug`, `api`, `ui`, `config`
+## 4. ìŠ¤ì½”í”„(scope) - ì„ íƒ ì‚¬í•­
+- ë³€ê²½ ì‚¬í•­ì´ ì˜í–¥ì„ ë¯¸ì¹˜ëŠ” ëª¨ë“ˆì´ë‚˜ íŒŒì¼ ëª…ì‹œ
+- ì˜ˆì‹œ: `bug`, `api`, `ui`, `config`
 
-## 5. ¼­ºêÁ§Æ®(subject) - ÇÊ¼ö
-- º¯°æ »çÇ×À» °£°áÇÏ°Ô ¼³¸íÇÕ´Ï´Ù.
-- Ã¹ ±ÛÀÚ´Â ¼Ò¹®ÀÚ·Î ½ÃÀÛÇÏ¸ç, ¸¶Ä§Ç¥¸¦ »ç¿ëÇÏÁö ¾Ê½À´Ï´Ù.
-- 50ÀÚ ÀÌ³»·Î ÀÛ¼ºÇÕ´Ï´Ù.
-- ¸í·ÉÇü µ¿»ç·Î ÀÛ¼ºÇÕ´Ï´Ù. (¿¹: "add", "fix", "update")
+## 5. ì„œë¸Œì íŠ¸ (subject) - í•„ìˆ˜
+- ë³€ê²½ ì‚¬í•­ì„ 50ìž ì´ë‚´ë¡œ ê°„ê²°í•˜ê²Œ ì„¤ëª…
+- ì²« ê¸€ìžëŠ” ì†Œë¬¸ìžë¡œ ì‹œìž‘í•˜ë©°, ë§ˆì¹¨í‘œëŠ” ì‚¬ìš©í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
+- ëª…ë ¹í˜• ë™ì‚¬ë¡œ ì‹œìž‘í•´ì•¼ í•©ë‹ˆë‹¤. (ì˜ˆì‹œ: "add", "fix", "update")
 
-## 6. ¹Ùµð(body) - ¼±ÅÃ »çÇ×
-- º¯°æ »çÇ×¿¡ ´ëÇÑ ÀÚ¼¼ÇÑ ¼³¸íÀ» ÀÛ¼ºÇÕ´Ï´Ù.
-- ¹®´ÜÀº ºó ÁÙ·Î ±¸ºÐÇÕ´Ï´Ù.
-- 50ÀÚ ÀÌ»ó, 72ÀÚ ÀÌ³»·Î ÀÛ¼ºÇÕ´Ï´Ù.
+## 6. ë°”ë””(body) - ì„ íƒ ì‚¬í•­
+- ë³€ê²½ ì‚¬í•­ì— ëŒ€í•œ ìžì„¸í•œ ì„¤ëª…
+- ë¬¸ë‹¨ì€ ë¹ˆì¤„ë¡œ êµ¬ë¶„í•˜ë©°, 50-72ìž ë‚´ì™¸ë¡œ ìž‘ì„±í•©ë‹ˆë‹¤.
 
-## 7. ÇªÅÍ(footer) - ¼±ÅÃ »çÇ×
-- ÀÌ½´ Æ®·¡Ä¿¿¡ ¿¬°áÇÒ ¼ö ÀÖ´Â ÂüÁ¶¸¦ Æ÷ÇÔÇÕ´Ï´Ù.
-- ¿¹: `Closes #123`, `Fixes #456`
+## 7. í‘¸í„°(footer) - ì„ íƒ ì‚¬í•­
+- ì´ìŠˆ íŠ¸ëž˜ì»¤ ì—°ê²° ì°¸ì¡°
+- ì˜ˆì‹œ: `Closes #123`, `Fixes #456`
